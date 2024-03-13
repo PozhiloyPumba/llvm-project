@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_GWARCH_TARGETINFO_GWARCHTARGETINFO_H
+#define LLVM_LIB_TARGET_GWARCH_TARGETINFO_GWARCHTARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getTheGWArchTarget();
+
+} // end namespace llvm
+
+#endif // LLVM_LIB_TARGET_GWARCH_TARGETINFO_GWARCHTARGETINFO_H
